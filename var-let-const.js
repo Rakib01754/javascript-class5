@@ -1,18 +1,18 @@
 // var  দিয়ে ভেরিয়েবল ডিক্লেয়ার করলে মান পরিবর্তন করা যায়।। 
 
-var age = 20;
-age = 40;
-console.log(age);
+// var age = 20;
+// age = 40;
+// console.log(age);
 
 // let  দিয়ে ভেরিয়েবল ডিক্লেয়ার করলে মান পরিবর্তন করা যায় var এর মতোই।।তবে var এবং let এর মধ্যে কিছুটা পার্থক্য রয়েছে।।
 
-let myName = 'rakib';
+// let myName = 'rakib';
 
-myName = 'rana';
-console.log(myName);
+// myName = 'rana';
+// console.log(myName);
 
 // const দিয়ে তখন এই কোন ভেরিয়েবল ডিক্লেয়ার করা হয় যখন সেটার মান পরিবর্তনের দরকার হয়না ।। অর্থাত const দিয়ে ডিক্লেয়ার করলে সেটার মান পরবর্তিতে পরিবর্তন করা যায়না । 
 
-const year = 2028;
-year = 2022; এটা পরিবর্তন না হয়ে একটা এরর আসবে।
-console.log(year);
+// const year = 2028;
+// // year = 2022; এটা পরিবর্তন না হয়ে একটা এরর আসবে।
+// console.log(year);
