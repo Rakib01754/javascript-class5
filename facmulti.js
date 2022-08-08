@@ -1,12 +1,12 @@
 function facMulti(number) {
     let multiply = 1;
-    for (startNum = 1; startNum < number; startNum++) {
-        let secNum = startNum + 1;
-        multiply = multiply * secNum;
+    for (startNum = 1; startNum <= number; startNum++) {
+        multiply = multiply * startNum;
+
     }
     return multiply;
 
 }
 
-const theNumber = facMulti(20);
+const theNumber = facMulti(5);
 console.log(theNumber);
